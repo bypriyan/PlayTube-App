@@ -67,7 +67,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or support, please open an issue or contact bypriyan@gmail.com.
+For any questions or support, please open an issue or contact 104priyanshu@gmail.com.
 
 ---
 
