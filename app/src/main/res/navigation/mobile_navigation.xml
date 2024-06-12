@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Home">
+
+    <fragment android:id="@+id/navigation_Home"
+        android:name="com.bypriyan.m24.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_Cuts"
+        android:name="com.bypriyan.m24.ui.cuts.CutsFragment"
+        android:label="Cuts"
+        tools:layout="@layout/fragment_cuts">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_chat"
+        android:name="com.bypriyan.m24.ui.chatting.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat">
+
+    </fragment>
+
+    <fragment android:id="@+id/navigation_Upload"
+        android:name="com.bypriyan.m24.ui.upload.UploadFragment"
+        android:label="Upload"
+        tools:layout="@layout/fragment_upload">
+
+    </fragment>
+
+
+    <fragment android:id="@+id/navigation_Library"
+        android:name="com.bypriyan.m24.ui.library.LibraryFragment"
+        android:label="Library"
+        tools:layout="@layout/fragment_library">
+    </fragment>
+
+</navigation>

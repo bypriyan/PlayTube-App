@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/channelImg"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@id/thumbnail"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11ssp"
+        android:layout_below="@id/thumbnail"
+        android:id="@+id/titleTv"
+        android:text="M24 Channel"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/channelImg"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/channelImg"
+        android:layout_below="@id/titleTv"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_greay"
+            android:textSize="@dimen/_10ssp"
+            android:id="@+id/channelNameTv"
+            android:text="Mefigure Celeb Pvt. Ltb."
+            android:maxLength="15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_greay"
+            android:textSize="@dimen/_10ssp"
+            android:id="@+id/videoViewsTv"
+            android:text="1M views"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:maxLength="15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_greay"
+            android:textSize="@dimen/_10ssp"
+            android:id="@+id/videoTimeTv"
+            android:text="6 months ago"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:maxLength="15" />
+
+    </LinearLayout>
+
+</RelativeLayout>

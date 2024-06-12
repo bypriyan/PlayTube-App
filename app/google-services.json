@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "656775762657",
+    "project_id": "m24-app-69999",
+    "storage_bucket": "m24-app-69999.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656775762657:android:9f6b433e64a28de67c5da0",
+        "android_client_info": {
+          "package_name": "com.bypriyan.m24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656775762657-nbm6q4vr6lct21npu49d7i9ctdsmmlhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmcxotloak0Py2-ngNy0gTi3ZSP8sA1x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656775762657-nbm6q4vr6lct21npu49d7i9ctdsmmlhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

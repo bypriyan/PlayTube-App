@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">M24</string>
+    <string name="rules">By continuing, I accept </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">Search video..</string>
+
+    <string name="about">The about us page is often a reflection of the purpose and personality of the business and its owners or top employees. Finally, the page can also incorporate contact or locational information. One way to view the about us concept is as a text self-portrait or short autobiography created by a business.</string>
+
+    <string name="privecy">A privacy policy is a document that explains how an organization handles any customer, client or employee information gathered in its operations.
+Most websites make their privacy policies available to site visitors.  A privacy page should specify any Personally identifiable information that is gathered, such as name, address and credit card number, as well as other things like order history, browsing habits, uploads and downloads.  The policy should also explain if data may be left on a user’s computer, such as cookies. According to best practices, the policy should disclose if data may be shared with or sold to third parties and if so, what the purpose is.</string>
+
+    <string name="terms">Terms of service are the legal agreements between a service provider and a person who wants to use that service. The person must agree to abide by the terms of service in order to use the offered service. Terms of service can also be merely a disclaimer, especially regarding the use of websites.t</string>
+</resources>

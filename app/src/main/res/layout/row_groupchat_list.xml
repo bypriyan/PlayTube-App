@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_6sdp"
+        android:background="@color/white">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_33sdp"
+            android:layout_height="@dimen/_33sdp"
+            android:id="@+id/groupProfile"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/ic_person">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/groupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/groupProfile"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp"
+            android:text=""
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/senderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/groupProfile"
+            android:layout_below="@+id/groupName"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:text=""
+            android:textColor="@color/dark_greay"
+            android:textSize="@dimen/_11ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/messageGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/senderName"
+            android:layout_below="@+id/groupName"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:textStyle="normal"
+            android:text=""
+            android:textColor="@color/dark_greay"
+            android:textSize="@dimen/_11ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="false"
+            android:maxLines="2"/>
+
+        <TextView
+            android:id="@+id/timeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/messageGroup"
+            android:text=""
+            android:textColor="@color/dark_greay"
+            android:textSize="@dimen/_10ssp"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:singleLine="true">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

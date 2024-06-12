@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginTop="@dimen/_3sdp"
+    app:contentPadding="@dimen/_3sdp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImageUser"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11ssp"
+        android:id="@+id/commentText"
+        android:text="M24 Channel"
+        android:layout_toRightOf="@id/profileImageUser"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:maxLines="4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_greay"
+        android:textSize="@dimen/_10ssp"
+        android:text="Doctor"
+        android:textStyle="normal"
+        android:maxLines="1"
+        android:layout_below="@+id/commentText"
+        android:id="@+id/commentDate"
+        android:layout_toRightOf="@id/profileImageUser"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:singleLine="true"/>
+
+</RelativeLayout>

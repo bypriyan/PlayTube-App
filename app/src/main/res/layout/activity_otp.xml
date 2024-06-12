@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".register.OtpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/received"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OTP Verification"
+                android:layout_below="@id/imageLogo"
+                android:textColor="@color/black"
+                android:fontFamily="@font/black"
+                android:layout_gravity="center_horizontal"
+                android:textSize="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_15sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12ssp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/dark_greay"
+                android:textStyle="bold"
+                android:padding="@dimen/_6sdp"
+                android:text="Enter the OTP send to"/>
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14ssp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:fontFamily="@font/bold"
+                android:padding="@dimen/_6sdp"
+                android:text="+91 7974476357"/>
+
+            <EditText
+                android:id="@+id/otp"
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxLength="6"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:outlineSpotShadowColor="@color/black"
+                android:hint="Enter OTP here"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:backgroundTint="@color/black"
+                android:drawablePadding="@dimen/_15sdp"
+                android:inputType="number">
+                <requestFocus/>
+            </EditText>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_12ssp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_6sdp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/confirmBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/appColor"
+            android:text="Continue"
+            android:alpha="0.5"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:cornerRadius="@dimen/_10sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateTint="@color/appColor"
+            android:visibility="invisible"/>
+
+    </FrameLayout>
+
+</RelativeLayout>
