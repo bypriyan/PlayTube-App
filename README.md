@@ -19,7 +19,7 @@
 ![WhatsApp_Image_2024-06-12_at_11 12 30_AM-removebg-preview](https://github.com/bypriyan/PlayTube-App/assets/86232180/6201f7ba-9946-4b3e-85d2-7adba30e210c)
 ![WhatsApp_Image_2024-06-12_at_11 12 34_AM__1_-removebg-preview](https://github.com/bypriyan/PlayTube-App/assets/86232180/d55f1fd2-7e3c-4fca-95d6-7e71cef838b6)
 ![WhatsApp_Image_2024-06-12_at_11 12 35_AM-removebg-preview](https://github.com/bypriyan/PlayTube-App/assets/86232180/2b2488e7-23e7-43e8-98f3-6fa349036edb)
-![WhatsApp_Image_2024-06-12_at_11 12 37_AM-removebg-preview](https://github.com/bypriyan/PlayTube-App/assets/86232180/62b471ce-1a48-45d7-86b8-d2c291286bba)
+![WhatsApp_Image_2024-06-12_at_11 12 36_AM-removebg-preview](https://github.com/bypriyan/PlayTube-App/assets/86232180/7a64db88-c85f-4d06-ae9e-38e04146c21a)
 ![WhatsApp_Image_2024-06-12_at_11 12 38_AM-removebg-preview](https://github.com/bypriyan/PlayTube-App/assets/86232180/620558cc-452a-41f8-9a08-81530cc889cb)
 ![WhatsApp_Image_2024-06-12_at_11 12 28_AM-removebg-preview](https://github.com/bypriyan/PlayTube-App/assets/86232180/a7f78400-9528-4820-a6f2-f38420a5b794)
 
